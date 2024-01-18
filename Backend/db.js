@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb://0.0.0.0:27017/iNotebook";
+const dotenv = require('dotenv');
+dotenv.config();
+const pass = process.env.PASS;
+const mongoURI = "mongodb+srv://rashik16:" + pass + "@cluster0.tv4xvnp.mongodb.net/";
 
 // mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
 
