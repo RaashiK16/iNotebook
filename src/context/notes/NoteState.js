@@ -59,7 +59,7 @@ const NoteState = (props) => {
         }
     ]
 
-    const host = "http://localhost:5000";
+    const host = "https://inotebook-backend-9isk.onrender.com";
 
     const [notes, setnotes] = useState(notesInitial);
 
